@@ -40,10 +40,10 @@ def predict():
     # Check the output values and retrive the result with html tag based on the value
     if output == 1:
       return render_template('hdc.html',
-                             result = 'The patient is not likely to have heart disease!')
+                             result = 'The patient is likely to have heart disease!')
     else:
       return render_template('hdc.html',
-                             result = 'The patient is likely to have heart disease!')
+                             result = 'The patient is not likely to have heart disease!')
 
 if __name__ == '__main__':
 #Run the application
