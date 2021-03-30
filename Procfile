@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn heart_disease_app:app
